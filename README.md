@@ -8,6 +8,18 @@
 - Backend : Node JS, ExpressJS
 - Database : MongoDB, Mongoose
 
+## Home Page
+
+<img src="screenshots/home.png">
+
+## Add Product
+
+<img src="screenshots/add-product.png">
+
+## Update Product
+
+<img src="screenshots/update-product.png">
+
 ## Clone To Local Machine
 
 ```
