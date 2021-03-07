@@ -20,6 +20,27 @@
 
 <img src="screenshots/update-product.png">
 
+## API Endpoints for ( CRUD )
+
+- Create (Add Product) : make `POST` request
+  http://localhost:5000/api/products
+
+- Read (Read All Products) : make `GET` request
+  http://localhost:5000/api/products
+
+- Read (Read By Product id) : make `GET` request
+  http://localhost:5000/api/products/id
+
+- Update (Update Product Using product id) : make `POST` request
+  http://localhost:5000/api/products/id
+
+- Delete (Delete Product using product id) : make `DELETE` request
+  http://localhost:5000/api/products/id
+
+### `Database name : chai`
+
+### `Collection name : products`
+
 ## Clone To Local Machine
 
 ```
