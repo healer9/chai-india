@@ -1,0 +1,12 @@
+.about {
+    text-align: center;
+    font-size: 2rem;
+    color: #A6E22E;
+    font-weight: bold;
+    margin: 2% 0;
+}
+
+.about-info{
+    padding:1% 5%;
+    font-size:1.3rem;
+}

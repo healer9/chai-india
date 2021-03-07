@@ -1,0 +1,55 @@
+.form-heading {
+    text-align: center;
+    padding: 1%;
+}
+
+.form-container {
+    margin: auto;
+    width: 90%;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+label {
+    font-weight: 700;
+}
+
+input,
+textarea {
+    border: 3px solid #A6EE2E;
+    border-radius: 7px;
+    padding: 5px 10px;
+    margin: 1% 0;
+    font-size: 1.2rem;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #A6EE2E;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: green;
+    transition: 0.5s ease-out;
+}
+
+button:focus {
+    outline: none;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: space-between;
+}
